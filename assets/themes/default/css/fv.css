@@ -1,0 +1,51 @@
+
+#centerTab{
+	padding: 0 170px
+}
+#tab{
+	padding: 0 90px;
+	}
+#tabL{
+    padding: 0 360px; /* Or desired space*/
+}
+#tabS{
+    padding: 0 20px; /* Or desired space*/
+}
+
+#wrap{ padding:50px; width:650px; background-color:#FFF; margin:20px auto; border:1px dashed #f; position:relative; }
+.options{ position:absolute; top:-1px; right:-1px; background-color:#F1F1F1; padding:4px 0; border-left:1px dashed #AAA; border-bottom:1px dashed #AAA; }
+	
+
+
+/* Tooltips helpers */
+.list-item .maketooltip{ float:left; top:2px; left:7px; position:relative; z-index:2; }
+.list-item .maketooltip:hover{ z-index:3; }
+   .list-item .maketooltip > span{ display:inline-block; width:16px; height:16px; line-height:16px; font-size:0.9em; font-weight:bold; text-align:center; color:#FFF; cursor:help; background-color:#00AEEF; position:relative; border-radius:10px; }
+    .list-item .maketooltip .content{ opacity:0; width:200px; background-color:#333; color:#FFF; font-size:0.9em; position:absolute; top:0; left:20px; padding:8px; border-radius:6px; pointer-events:none; transition:0.2s cubic-bezier(0.1, 0.1, 0.25, 2); -webkit-transition:0.3s cubic-bezier(0.1, 0.2, 0.5, 2.2); -moz-transition:0.3s cubic-bezier(0.1, 0.2, 0.5, 2.2); }
+        .list-item .maketooltip p{ padding:0; }
+   .list-item .maketooltip.down .content{ left:auto; right:0; top:30px; }
+   .list-item .maketooltip:hover .content{ opacity:1; left:36px; }
+      .list-item .maketooltip .content b{ height:0; width:0; border-color:#333 #333 transparent transparent; border-style:solid; border-width:9px 7px; position:absolute; left:-14px; top:8px; }
+        .list-item .maketooltip.down .content b{ left:auto; right:6px; top:-10px; border-width:5px; border-color:transparent #333 #333 transparent; }
+
+/* alerts (when validation fails) */
+.list-item .alert{ float:left; margin:0 0 0 20px; padding:3px 10px; position:relative; color:#FFF; border-radius:3px 4px 4px 3px; background-color:#CE5454; max-width:170px; white-space:pre; z-index:1; }
+.list-item .alert::after{ content:''; display:block; height:0; width:0; border-color:transparent #CE5454 transparent transparent; border-style:solid; border-width:11px 7px; position:absolute; left:-13px; top:1px; }
+
+@keyframes shake{
+    25%{ transform:translateX(-6px); }
+    75%{ transform:translateX(6px); }
+}
+@-webkit-keyframes shake{
+    25%{ -webkit-transform:translateX(-6px); }
+    75%{ -webkit-transform:translateX(6px); }
+}
+
+
+
+form .list-item.list-items{ height:auto; }
+	.list-item label{ float:left; }
+		.list-item label span{ float:left; width:160px; text-transform:capitalize; line-height:2em; }
+	.
+
+
